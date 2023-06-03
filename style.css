@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: lightgray;
+  font-family: monospace, Lucida;
+  line-height: 1.6;
+}
+
+article {
+  width: 90vw;
+  margin: 10px auto;
+}
+article header {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #330;
+  margin-bottom: 10px;
+}
+article header ul {
+  display: flex;
+  list-style-type: none;
+}
+article header li {
+  padding: 10px;
+}
+article header nav li a {
+  display: block;
+  color: #330;
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+}
+article header nav li a:hover {
+  background-color: rgb(68, 68, 138);
+  color: lightgray;
+  text-decoration: none;
+}
+article section {
+  color: navy;
+  text-align: justify;
+}
+article section h2 {
+  color: #330;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+article section ol {
+  margin-left: 2em;
+}
+article section li {
+  display: flex;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+article section li .alcim {
+  font-style: normal;
+  font-weight: bold;
+  color: #330;
+  margin-right: 10px;
+}
+article section li img {
+  width: 24vw;
+  height: 20vw;
+  float: left;
+  margin: 20px;
+}
+article footer {
+  margin: 10px;
+  border-top: black solid thin;
+}
+article footer li {
+  text-align: center;
+  margin-left: 20px;
+  list-style-type: none;
+}
+article footer a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: navy;
+}
+article footer a:hover {
+  background-color: rgb(68, 68, 138);
+  color: lightgray;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */
